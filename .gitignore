@@ -1,10 +1,8 @@
-## Ignore arquivos do Visual Studio
 .vs/
 .vscode/
 *.user
 *.suo
 
-## Ignore arquivos de build do .NET
 bin/
 obj/
 out/
@@ -12,71 +10,53 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-## Logs
 *.log
 
-## Pacotes NuGet baixados
 packages/
 *.nupkg
 
-## Arquivos de cache do Rider/JetBrains
 .idea/
 *.sln.iml
 
-## Arquivos temporários
 *.tmp
 *.temp
 *.bak
 
-## Configurações locais
 *.local
 *.swp
 
-## Arquivos de publicação
 publish/
 
-## Secrets e tokens (se você usar secrets.json)
 secrets.json
 
-## Testes e cobertura
 TestResults/
 coverage/
 *.coverage
 *.coveragexml
 *.testsettings
 
-## Ambiente do Mac/Linux
 .DS_Store
 *.AppleDouble
 *.LSOverride
 
-# Linux
 *~
 
-# Thumbnails
 ._*
 
-# Netlify
 .netlify/
 
-# Arquivos de backup do Windows
 Thumbs.db
 ehthumbs.db
 desktop.ini
 
-## Arquivos de build do Azure DevOps
 *.gpState
 
-## Arquivos do Resharper
 _ReSharper*/
 *.[Rr]e[Ss]harper
 
-## Arquivos do Sonarqube
 .sonar/
 
-# Arquivos do Visual Studio Code
 .vscode/
 
-# DotCover
 .idea/
 *.dotCover
